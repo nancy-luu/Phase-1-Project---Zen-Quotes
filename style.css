@@ -1,0 +1,29 @@
+body {
+  background: url(http://www.dumplings.yourownpersonalgeek.com/wp-content/uploads/2010/06/bamboo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+    
+}
+
+h1 {
+  font-family:'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 4.5em;
+  color: rgba(0, 0, 0, 0.726);
+  margin-bottom: 0em;
+}
+
+h2 {
+  font-family:'Zen Kurenaido', sans-serif;;
+  text-align: center;
+  font-size: 2.0em;
+  color: rgba(0, 0, 0, 0.726);
+  margin-top: 0em;
+  margin-bottom: 0em;
+
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+}
