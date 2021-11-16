@@ -2,12 +2,6 @@
 {
     "Zen":[
     {
-    "q": "Keep your friends close, and your enemies closer.",
-    "a": "Sun Tzu",
-    "c": "49",
-    "h": "<blockquote>&ldquo;Keep your friends close, and your enemies closer.&rdquo; &mdash; <footer>Sun Tzu</footer></blockquote>"
-    },
-    {
     "q": "No problem can be solved from the same level of consciousness that created it.",
     "a": "Albert Einstein",
     "c": "78",
@@ -20,28 +14,10 @@
     "h": "<blockquote>&ldquo;As you think, so shall you become. &rdquo; &mdash; <footer>Bruce Lee</footer></blockquote>"
     },
     {
-    "q": "Treat every moment as your last. It is not preparation for something else.",
-    "a": "Shunryu Suzuki",
-    "c": "74",
-    "h": "<blockquote>&ldquo;Treat every moment as your last. It is not preparation for something else.&rdquo; &mdash; <footer>Shunryu Suzuki</footer></blockquote>"
-    },
-    {
     "q": "Happiness is a choice and a skill and you can dedicate yourself to learning that skill and making that choice.",
     "a": "Naval Ravikant",
     "c": "110",
     "h": "<blockquote>&ldquo;Happiness is a choice and a skill and you can dedicate yourself to learning that skill and making that choice.&rdquo; &mdash; <footer>Naval Ravikant</footer></blockquote>"
-    },
-    {
-    "q": "Hope and fear come from feeling that we lack something; they come from a sense of poverty.",
-    "a": "Pema Chodron",
-    "c": "90",
-    "h": "<blockquote>&ldquo;Hope and fear come from feeling that we lack something; they come from a sense of poverty.&rdquo; &mdash; <footer>Pema Chodron</footer></blockquote>"
-    },
-    {
-    "q": "He suffers more than necessary, who suffers before it is necessary.  ",
-    "a": "Seneca",
-    "c": "69",
-    "h": "<blockquote>&ldquo;He suffers more than necessary, who suffers before it is necessary.  &rdquo; &mdash; <footer>Seneca</footer></blockquote>"
     },
     {
     "q": "Kind words can be short and easy to speak, but their echoes are truly endless.",
@@ -50,82 +26,16 @@
     "h": "<blockquote>&ldquo;Kind words can be short and easy to speak, but their echoes are truly endless.&rdquo; &mdash; <footer>Mother Teresa</footer></blockquote>"
     },
     {
-    "q": "Never be afraid to raise your voice for honesty and truth and compassion against injustice and lying and greed.",
-    "a": "William Faulkner",
-    "c": "111",
-    "h": "<blockquote>&ldquo;Never be afraid to raise your voice for honesty and truth and compassion against injustice and lying and greed.&rdquo; &mdash; <footer>William Faulkner</footer></blockquote>"
-    },
-    {
-    "q": "Change yourself - you are in control.",
-    "a": "Mahatma Gandhi",
-    "c": "37",
-    "h": "<blockquote>&ldquo;Change yourself - you are in control.&rdquo; &mdash; <footer>Mahatma Gandhi</footer></blockquote>"
-    },
-    {
-    "q": "Your time is limited, so don't waste it living someone elses. life. Don't be trapped by dogma - which is living with the results of other people's thinking.",
-    "a": "Steve Jobs",
-    "c": "156",
-    "h": "<blockquote>&ldquo;Your time is limited, so don't waste it living someone elses. life. Don't be trapped by dogma - which is living with the results of other people's thinking.&rdquo; &mdash; <footer>Steve Jobs</footer></blockquote>"
-    },
-    {
     "q": "It is under the greatest adversity that there exists the greatest potential for doing good, both for oneself and others.",
     "a": "Dalai Lama",
     "c": "120",
     "h": "<blockquote>&ldquo;It is under the greatest adversity that there exists the greatest potential for doing good, both for oneself and others.&rdquo; &mdash; <footer>Dalai Lama</footer></blockquote>"
     },
     {
-    "q": "Success is not what you do when you are on top.  Success is how high you bounce when you hit the bottom.",
-    "a": "Sonia Ricotti",
-    "c": "104",
-    "h": "<blockquote>&ldquo;Success is not what you do when you are on top.  Success is how high you bounce when you hit the bottom.&rdquo; &mdash; <footer>Sonia Ricotti</footer></blockquote>"
-    },
-    {
-    "q": "The question isn't who is going to let me; it's who is going to stop me.",
-    "a": "Ayn Rand",
-    "c": "72",
-    "h": "<blockquote>&ldquo;The question isn't who is going to let me; it's who is going to stop me.&rdquo; &mdash; <footer>Ayn Rand</footer></blockquote>"
-    },
-    {
-    "q": "Ability is a poor man's wealth.",
-    "a": "John Wooden",
-    "c": "31",
-    "h": "<blockquote>&ldquo;Ability is a poor man's wealth.&rdquo; &mdash; <footer>John Wooden</footer></blockquote>"
-    },
-    {
-    "q": "Have the courage to be ignorant of a great number of things, in order to avoid the calamity of being ignorant of everything.",
-    "a": "Sydney Smith",
-    "c": "124",
-    "h": "<blockquote>&ldquo;Have the courage to be ignorant of a great number of things, in order to avoid the calamity of being ignorant of everything.&rdquo; &mdash; <footer>Sydney Smith</footer></blockquote>"
-    },
-    {
-    "q": "Duty makes us do things well, but love makes us do them beautifully.  ",
-    "a": "Zig Ziglar",
-    "c": "70",
-    "h": "<blockquote>&ldquo;Duty makes us do things well, but love makes us do them beautifully.  &rdquo; &mdash; <footer>Zig Ziglar</footer></blockquote>"
-    },
-    {
-    "q": "To do two things at once is to do neither.",
-    "a": "Publilius Syrus",
-    "c": "42",
-    "h": "<blockquote>&ldquo;To do two things at once is to do neither.&rdquo; &mdash; <footer>Publilius Syrus</footer></blockquote>"
-    },
-    {
-    "q": "Those who look for the bad in people will surely find it.",
-    "a": "Abraham Lincoln",
-    "c": "57",
-    "h": "<blockquote>&ldquo;Those who look for the bad in people will surely find it.&rdquo; &mdash; <footer>Abraham Lincoln</footer></blockquote>"
-    },
-    {
     "q": "Today will never happen again. Don't waste it with a false start or no start at all.",
     "a": "Og Mandino",
     "c": "84",
     "h": "<blockquote>&ldquo;Today will never happen again. Don't waste it with a false start or no start at all.&rdquo; &mdash; <footer>Og Mandino</footer></blockquote>"
-    },
-    {
-    "q": "A wise person should have money in their head, but not in their heart.",
-    "a": "Jonathan Swift",
-    "c": "70",
-    "h": "<blockquote>&ldquo;A wise person should have money in their head, but not in their heart.&rdquo; &mdash; <footer>Jonathan Swift</footer></blockquote>"
     },
     {
     "q": "Always do what is right. It will gratify half of mankind and astound the other.",
@@ -140,58 +50,16 @@
     "h": "<blockquote>&ldquo;Don't put off living to next week, next month, next year or next decade. The only time you're ever living is in this moment.&rdquo; &mdash; <footer>Celestine Chua</footer></blockquote>"
     },
     {
-    "q": "No grand idea was ever born in a conference, but a lot of foolish ideas have died there.",
-    "a": "F. Scott Fitzgerald",
-    "c": "88",
-    "h": "<blockquote>&ldquo;No grand idea was ever born in a conference, but a lot of foolish ideas have died there.&rdquo; &mdash; <footer>F. Scott Fitzgerald</footer></blockquote>"
-    },
-    {
-    "q": "It's not what you pay a man, but what he costs you that counts.",
-    "a": "Will Rogers",
-    "c": "63",
-    "h": "<blockquote>&ldquo;It's not what you pay a man, but what he costs you that counts.&rdquo; &mdash; <footer>Will Rogers</footer></blockquote>"
-    },
-    {
-    "q": "Don't be afraid to give up the good to go for the great.",
-    "a": "John D. Rockefeller",
-    "c": "56",
-    "h": "<blockquote>&ldquo;Don't be afraid to give up the good to go for the great.&rdquo; &mdash; <footer>John D. Rockefeller</footer></blockquote>"
-    },
-    {
     "q": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
     "a": "Dr. Seuss",
     "c": "107",
     "h": "<blockquote>&ldquo;You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.&rdquo; &mdash; <footer>Dr. Seuss</footer></blockquote>"
     },
     {
-    "q": "If you put water into a cup, it becomes the cup.",
-    "a": "Bruce Lee",
-    "c": "48",
-    "h": "<blockquote>&ldquo;If you put water into a cup, it becomes the cup.&rdquo; &mdash; <footer>Bruce Lee</footer></blockquote>"
-    },
-    {
     "q": "It doesn't matter where you are coming from. All that matters is where you are going. ",
     "a": "Brian Tracy",
     "c": "86",
     "h": "<blockquote>&ldquo;It doesn't matter where you are coming from. All that matters is where you are going. &rdquo; &mdash; <footer>Brian Tracy</footer></blockquote>"
-    },
-    {
-    "q": "Truth will always be truth, regardless of lack of understanding, disbelief or ignorance. ",
-    "a": "W. Clement Stone",
-    "c": "89",
-    "h": "<blockquote>&ldquo;Truth will always be truth, regardless of lack of understanding, disbelief or ignorance. &rdquo; &mdash; <footer>W. Clement Stone</footer></blockquote>"
-    },
-    {
-    "q": "Avoiding failure is to avoid progress.",
-    "a": "Unknown",
-    "c": "38",
-    "h": "<blockquote>&ldquo;Avoiding failure is to avoid progress.&rdquo; &mdash; <footer>Unknown</footer></blockquote>"
-    },
-    {
-    "q": "Never fear quarrels, but seek hazardous adventures.",
-    "a": "Alexandre Dumas",
-    "c": "51",
-    "h": "<blockquote>&ldquo;Never fear quarrels, but seek hazardous adventures.&rdquo; &mdash; <footer>Alexandre Dumas</footer></blockquote>"
     },
     {
     "q": "Growth comes at the point of resistance.",
@@ -206,34 +74,10 @@
     "h": "<blockquote>&ldquo;You're braver than you believe, and stronger than you seem, and smarter than you think.&rdquo; &mdash; <footer>A.A. Milne</footer></blockquote>"
     },
     {
-    "q": "Be courteous to all, but intimate with few, and let those few be well tried before you give them your confidence. ",
-    "a": "George Washington",
-    "c": "114",
-    "h": "<blockquote>&ldquo;Be courteous to all, but intimate with few, and let those few be well tried before you give them your confidence. &rdquo; &mdash; <footer>George Washington</footer></blockquote>"
-    },
-    {
-    "q": "People don't care how much you know until they know how much you care.",
-    "a": "Theodore Roosevelt",
-    "c": "70",
-    "h": "<blockquote>&ldquo;People don't care how much you know until they know how much you care.&rdquo; &mdash; <footer>Theodore Roosevelt</footer></blockquote>"
-    },
-    {
-    "q": "If you could kick the person in the pants responsible for most of your trouble, you wouldn't sit for a month.",
-    "a": "Theodore Roosevelt",
-    "c": "109",
-    "h": "<blockquote>&ldquo;If you could kick the person in the pants responsible for most of your trouble, you wouldn't sit for a month.&rdquo; &mdash; <footer>Theodore Roosevelt</footer></blockquote>"
-    },
-    {
     "q": "Don't let the past steal your present.",
     "a": "Cherralea Morgen",
     "c": "38",
     "h": "<blockquote>&ldquo;Don't let the past steal your present.&rdquo; &mdash; <footer>Cherralea Morgen</footer></blockquote>"
-    },
-    {
-    "q": "The right thing to do and the hard thing to do are usually the same.",
-    "a": "Steve Maraboli",
-    "c": "68",
-    "h": "<blockquote>&ldquo;The right thing to do and the hard thing to do are usually the same.&rdquo; &mdash; <footer>Steve Maraboli</footer></blockquote>"
     },
     {
     "q": "Whoever is happy will make others happy too.",
@@ -254,18 +98,6 @@
     "h": "<blockquote>&ldquo;I wasn't brave, I just didn't have time to be scared.&rdquo; &mdash; <footer>Amelia Earhart</footer></blockquote>"
     },
     {
-    "q": "Never do to others what you would not like them to do to you. ",
-    "a": "Confucius",
-    "c": "62",
-    "h": "<blockquote>&ldquo;Never do to others what you would not like them to do to you. &rdquo; &mdash; <footer>Confucius</footer></blockquote>"
-    },
-    {
-    "q": "The one who praises you is a thief. The one who criticizes you is your true friend.",
-    "a": "Seungsahn",
-    "c": "83",
-    "h": "<blockquote>&ldquo;The one who praises you is a thief. The one who criticizes you is your true friend.&rdquo; &mdash; <footer>Seungsahn</footer></blockquote>"
-    },
-    {
     "q": "Instead of being intimidated by the limitations, be inspired to find new ways around them.",
     "a": "Ralph Marston",
     "c": "90",
@@ -278,28 +110,10 @@
     "h": "<blockquote>&ldquo;Make failure your teacher, not your undertaker.  &rdquo; &mdash; <footer>Zig Ziglar</footer></blockquote>"
     },
     {
-    "q": "Most people dabble their way through life, never deciding to master anything in particular.",
-    "a": "Tony Robbins",
-    "c": "91",
-    "h": "<blockquote>&ldquo;Most people dabble their way through life, never deciding to master anything in particular.&rdquo; &mdash; <footer>Tony Robbins</footer></blockquote>"
-    },
-    {
-    "q": "If we have no peace, it is because we have forgotten that we belong to each other.",
-    "a": "Mother Teresa",
-    "c": "82",
-    "h": "<blockquote>&ldquo;If we have no peace, it is because we have forgotten that we belong to each other.&rdquo; &mdash; <footer>Mother Teresa</footer></blockquote>"
-    },
-    {
     "q": "Every experience is a lesson. Every loss is a gain.",
     "a": "Sathya Sai Baba",
     "c": "51",
     "h": "<blockquote>&ldquo;Every experience is a lesson. Every loss is a gain.&rdquo; &mdash; <footer>Sathya Sai Baba</footer></blockquote>"
-    },
-    {
-    "q": "Opportunities multiply as they are seized.",
-    "a": "Sun Tzu",
-    "c": "42",
-    "h": "<blockquote>&ldquo;Opportunities multiply as they are seized.&rdquo; &mdash; <footer>Sun Tzu</footer></blockquote>"
     }
   ]
 }
