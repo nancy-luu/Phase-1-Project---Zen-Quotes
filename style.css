@@ -46,8 +46,12 @@ h4 {
 }
 
 .container {
+  position: relative;
+  justify-content: center;
+  margin-left: 600;
+  margin-right: 600;
   padding: 1rem;
-  width: 40%;
+  width: auto;
   height: auto;
   display: none;
   background: #679253;
@@ -57,14 +61,15 @@ h4 {
 
 .input-text {
   height: 2rem;
-  width: 95%;
+  width: 98%;
   font-size: 15px;
   font-family: 'Zen Kurenaido', sans-serif;
   margin: 3px;
 }
 
 .add-inspo-form {
-  justify-content: right;
+  position: relative;
+  justify-content: center;
 }
 
 #get-inspo-btn {
@@ -149,6 +154,7 @@ h4 {
 }
 
 #inspo-collection {
-  justify-self: center;
+  position: relative;
+  text-align: center;
   margin: 1rem;
 }
