@@ -43,36 +43,39 @@ document.addEventListener("DOMContentLoaded", () => {
             function renderSingleCard(inspo) {
                 // console.log(inspo);
     
-                inspoCard = document.createElement("div")
+                const inspoCard = document.createElement("div")
                 inspoCard.className = "card";
                 // console.log(inspoCard);
     
-                inspoAuthorTag = document.createElement("h3")
+                const inspoAuthorTag = document.createElement("h3")
                 authorName = document.createTextNode(inspo.author)
                 inspoAuthorTag.appendChild(authorName)
                 inspoCard.append(inspoAuthorTag)
     
-                inspoImgTag = document.createElement("img")
+                const inspoImgTag = document.createElement("img")
                 inspoImgTag.src = inspo.image
                 inspoImgTag.className = "inspo-avatar"
                 inspoCard.append(inspoImgTag)
     
-                inspoQuoteTag = document.createElement("h4")
+                const inspoQuoteTag = document.createElement("h4")
                 inspoQuote = document.createTextNode(inspo.quote)
                 inspoQuoteTag.appendChild(inspoQuote)
                 inspoCard.append(inspoQuoteTag)
     
-                inspoLikesTag = document.createElement("p")
-                inspoLikesTag.className = "inspo-likes"
-                inspoLikesTag.innerText = `${inspo.likes} Likes`
-                inspoCard.append(inspoLikesTag)
+                const inspoLikesCount = document.createElement("p")
+                inspoLikesCount.className = "inspo-likes"
+                inspoLikesCount.innerText = `${inspo.likes} Likes`
+                inspoCard.append(inspoLikesCount)
     
-                likesBttnTag = document.createElement("div")
+                const likesBttnTag = document.createElement("div")
                 likesBttnTag.className = "like-btn"
-                likesBttn = document.createTextNode("ॐ")
+                const likesBttn = document.createTextNode("💭")
                 likesBttnTag.appendChild(likesBttn)
                 inspoCard.append(likesBttnTag)
-                
+                likesBttn.addEventListener("click", addLikes)
+                function addLikes(){
+                    inspoLikesCount.innerText = ++inspo.likes;
+                 }
     
     
                 inspoCollection.append(inspoCard);
@@ -83,4 +86,5 @@ document.addEventListener("DOMContentLoaded", () => {
             renderSingleCard(inspo[getRandomFromBucket()])
         }
       });
+
 });

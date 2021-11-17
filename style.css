@@ -76,7 +76,7 @@ h4 {
   opacity: .95;
   background-color: transparent;
   border: none;
-  /* width: 5rem;
+  /* width: 5rem;idz
   height: 5rem; */
 }
 
@@ -139,6 +139,12 @@ h4 {
   justify-self: left;
   left: 50;
 
+}
+
+.like-btn:hover {
+  background-color: whitesmoke;
+  border: #135016cc solid 1px;
+  color: #135016cc;
 }
 
 .inspo-likes {
