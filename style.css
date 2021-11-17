@@ -9,7 +9,7 @@ h1 {
   font-family:'Permanent Marker', cursive;
   text-align: center;
   font-size: 4.5em;
-  color: rgba(0, 0, 0, 0.726);
+  color: rgba(0, 0, 0, 0.863);
   margin-bottom: 0em;
 }
 
@@ -26,16 +26,16 @@ h2 {
 h3 {
   font-family:'Permanent Marker', cursive;
   font-size: 2.0em;
-  color: rgba(0, 0, 0, 0.726);
+  color: rgba(0, 0, 0, 0.795);
   margin-top: 0em;
   margin-bottom: 0em;
 }
 
 h4 {
-  font-family:'Zen Kurenaido', sans-serif;;
+  font-family:'Zen Kurenaido', sans-serif;
   text-align: center;
   font-size: 1.5em;
-  color: rgba(0, 0, 0, 0.726);
+  color: rgba(0, 0, 0, 0.829);
   margin-top: 0em;
   margin-bottom: 2em;
 }
@@ -63,16 +63,18 @@ h4 {
   margin: 3px;
 }
 
-#get-inspo-btn {
-  font-family: 'Zen Kurenaido', sans-serif;
-}
-
 .add-inspo-form {
   justify-content: right;
 }
 
 #get-inspo-btn {
-  opacity: .8;
+  opacity: .95;
+  background-color: transparent;
+  border: none;
+}
+
+#get-inspo-btn:hover {
+  opacity: .5;
 }
 
 .submit {
@@ -95,13 +97,13 @@ h4 {
 
 .card {
   text-align: center;
-  background-color: rgba(245, 245, 245, 0.541);
+  background-color: rgba(245, 245, 245, 0.63);
   padding: 1rem;
   width: 20rem;
-  height: 25rem;
+  height: 30rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  box-shadow: 4px 4px #135016cc;
+  /* box-shadow: 4px 4px #135016cc; */
   border-radius: 20px;
 }
 
@@ -113,6 +115,27 @@ h4 {
   justify-self: center;
   height: 12rem;
   width: auto;
+}
+
+.like-btn {
+  position: relative;
+  background-color: #135016cc;
+  border: none;
+  border-radius: 5px;
+  width: 5rem;
+  height: 4rem;
+  color: whitesmoke;
+  font-size: 50px;
+  justify-self: center;
+}
+
+.inspo-likes {
+  font-family:'Zen Kurenaido', sans-serif;;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.726);
+  /* justify-content: bottom; */
+  justify-self: center;
 }
 
 #inspo-collection {
