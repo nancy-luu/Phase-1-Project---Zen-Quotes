@@ -4,13 +4,14 @@ let addInspo = false;
 
 const inspoFormContainer = document.querySelector(".container");
 const getInspoBttn = document.querySelector("#get-inspo-btn");
-
+let loaded = false
 
 document.addEventListener("DOMContentLoaded", () => {
     const inspoCollection = document.getElementById("inspo-collection")
 
     getInspoBttn.addEventListener("click", () => {
         // hide & seek with the form 
+
         addInspo = !addInspo;
         if (addInspo) {
             inspoFormContainer.style.display = "block";
@@ -19,13 +20,27 @@ document.addEventListener("DOMContentLoaded", () => {
             inspoFormContainer.style.display = "none";
             inspoCollection.style.display = "none";
         }
-
-        fetch(url)
-        .then(response => response.json())
-        .then(renderInspoCards);
+        if (loaded === false){
+            fetch(url)
+            .then(response => response.json())
+            .then(renderInspoCards)
+            .then(loaded=true);
+        }
+        
 
         function renderInspoCards(inspo){
-            inspo.forEach(function renderSingleCard(inspo) {
+            let bucket = [];
+
+            for (let i=0;i<=17;i++) {
+                bucket.push(i);
+            }
+
+            function getRandomFromBucket() {
+                let randomIndex = Math.floor(Math.random()*bucket.length);
+                return bucket.splice(randomIndex, 1)[0];
+            }
+
+            function renderSingleCard(inspo) {
                 // console.log(inspo);
     
                 inspoCard = document.createElement("div")
@@ -62,8 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
                 inspoCollection.append(inspoCard);
                 // console.log(inspoCollection);
-            });
-            
+            }
+            renderSingleCard(inspo[getRandomFromBucket()])
+            renderSingleCard(inspo[getRandomFromBucket()])
+            renderSingleCard(inspo[getRandomFromBucket()])
         }
       });
 });
