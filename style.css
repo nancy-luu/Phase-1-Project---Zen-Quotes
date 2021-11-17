@@ -19,11 +19,103 @@ h2 {
   font-size: 2.0em;
   color: rgba(0, 0, 0, 0.726);
   margin-top: 0em;
-  margin-bottom: 0em;
+  margin-bottom: 2em;
 
+}
+
+h3 {
+  font-family:'Permanent Marker', cursive;
+  font-size: 2.0em;
+  color: rgba(0, 0, 0, 0.726);
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+h4 {
+  font-family:'Zen Kurenaido', sans-serif;;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.726);
+  margin-top: 0em;
+  margin-bottom: 2em;
 }
 
 .page-title {
   display: flex;
   justify-content: center;
+}
+
+.container {
+  padding: 1rem;
+  width: 40%;
+  height: auto;
+  display: none;
+  background: #679253;
+  opacity: .8;
+  border-radius: 5px;
+}
+
+.input-text {
+  height: 2rem;
+  width: 95%;
+  font-size: 15px;
+  font-family: 'Zen Kurenaido', sans-serif;
+  margin: 3px;
+}
+
+#get-inspo-btn {
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.add-inspo-form {
+  justify-content: right;
+}
+
+#get-inspo-btn {
+  opacity: .8;
+}
+
+.submit {
+  position: relative;
+  background-color: #135016cc;
+  border-radius: 2px;
+  height: 2rem;
+  width: max-content;
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: 'Zen Kurenaido', sans-serif;
+  margin: 0px;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+  border: #135016cc solid 1px;
+  color: #135016cc;
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.541);
+  padding: 1rem;
+  width: 20rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 4px 4px #135016cc;
+  border-radius: 20px;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.808);
+}
+
+.inspo-avatar {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+#inspo-collection {
+  justify-self: center;
+  margin: 1rem;
 }

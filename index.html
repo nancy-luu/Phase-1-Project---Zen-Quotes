@@ -12,10 +12,62 @@
   <body>
     <div id="page-title"> 
         <h1> FIND YOUR INSPO</h1>
-        <h2> - A state of calm attentiveness in which one's actions are guided by intuition -</h2>
-
+        <h2> - /ˈinspō/ : something or someone that serves as inspiration or motivation -</h2>
+    </div>
+    
+    <div id="inspo-header">
         
     </div>
+
+    <div class="container">
+        <form class="add-inspo-form">
+          <h3>Add Your Inspo:</h3>
+  
+          <input
+            type="text"
+            name="name"
+            value=""
+            placeholder="Enter Your Quote Author..."
+            class="input-text"
+          />
+          <br />
+          <input
+            type="text"
+            name="quote"
+            value=""
+            placeholder="Enter Your Quote."
+            class="input-text"
+          />
+          <br />
+          <input
+            type="text"
+            name="image"
+            value=""
+            placeholder="Enter Your Author's Image URL..."
+            class="input-text"
+          />
+          <br />
+          <input
+            type="submit"
+            name="submit"
+            value="Submit"
+            class="submit"
+          />
+        </form>
+    </div>
+
+
+    <p style="text-align:center">
+        <button id="get-inspo-btn">
+            <img
+            src="/Users/nancyluu/Phase-1-Project---Zen-Quotes/Images/kisspng-ens-peace-symbols-ikigai-acutopia-chinese-medici-5b3a2e0be839d0.0453358515305395319512.png"
+            alt="enso-bttn"
+            />
+        </button>
+    </p>
+
+    <div id="inspo-collection"></div>
+    <script type="text/javascript" src="src/index.js"></script>
   </body>
 
 </html>
