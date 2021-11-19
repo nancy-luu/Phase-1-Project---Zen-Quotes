@@ -48,15 +48,17 @@ h4 {
 .container {
   position: relative;
   justify-content: center;
-  margin-left: 600;
-  margin-right: 600;
+  margin-left: 775;
+  margin-right: 775;
   padding: 1rem;
+  padding-bottom: 5rem;
   width: auto;
-  height: auto;
+  height: 150px;
   display: none;
   background: #679253;
   opacity: .8;
   border-radius: 5px;
+  box-shadow: 0 20px 20px 0 rgba(61, 61, 61, 0.6);
 }
 
 .input-text {
@@ -84,6 +86,7 @@ h4 {
   opacity: .5;
 }
 
+
 .submit {
   position: relative;
   background-color: #135016cc;
@@ -93,18 +96,35 @@ h4 {
   color: whitesmoke;
   font-size: 15px;
   font-family: 'Zen Kurenaido', sans-serif;
-  margin: 0px;
+  min-width: 100px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 
+    7px 7px 20px 0px rgba(0,0,0,.1), 
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #0a4621;
 }
 
 .submit:hover {
-  background-color: whitesmoke;
-  border: #135016cc solid 1px;
-  color: #135016cc;
-}
+    background-color: #397e49;
+  }
+.submit:active {
+    top: 2px;
+  }
+
 
 .card {
   text-align: center;
-  background-color: rgba(245, 245, 245, 0.63);
+  background-color: rgba(245, 245, 245, 0.856);
   padding: 1rem;
   width: 20rem;
   height: 30rem;
@@ -113,6 +133,7 @@ h4 {
   /* box-shadow: 4px 4px #135016cc; */
   border-radius: 20px;
   position: relative;
+  box-shadow: 0 20px 20px 0 rgba(61, 61, 61, 0.6);
 }
 
 .card:hover {
@@ -129,23 +150,30 @@ h4 {
 .like-btn {
   position: absolute;
   top: 85%;
-  background-color: #135016cc;
+  background-color: #1f5222cc;
   border: none;
   border-radius: 5px;
   width: 5rem;
-  height: 4rem;
+  height: 3.5rem;
   color: whitesmoke;
   font-size: 50px;
   justify-self: left;
   left: 50;
-
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 
+  7px 7px 20px 0px rgba(0,0,0,.1), 
+  4px 4px 5px 0px rgba(0,0,0,.1);
 }
 
 .like-btn:hover {
-  background-color: whitesmoke;
-  border: #135016cc solid 1px;
-  color: #135016cc;
+  background-color: #337743a2;
 }
+
 
 .inspo-likes {
   position: absolute;
@@ -163,4 +191,174 @@ h4 {
   position: relative;
   text-align: center;
   margin: 1rem;
+}
+
+/* DROP DOWN MENU--------------------------- */
+#authors-menu {
+  position: relative;
+  right: 440px;
+  bottom: 140px;
+  background-color: #679253;
+  color: white;
+  padding: 16px;
+  font-family:'Permanent Marker', cursive;
+  color: rgba(0, 0, 0, 0.726);
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 350px;
+  margin-right: 200;
+  box-shadow: 0 20px 20px 0 rgba(61, 61, 61, 0.6);
+}
+
+#authors-menu:hover, .dropbtn:focus {
+  background-color: #38773bcc;
+}
+
+#authors-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-down-items {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+/* Music Player ----------------------- */
+
+.music-container {
+  position: relative;
+  left: 400px;
+  bottom: 300px;
+  background-color: #679253;
+  font-family: 'Lato', sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 20px 20px 0 rgba(61, 61, 61, 0.6);
+  display: flex;
+  padding: 20px 30px;
+  position: relative;
+  margin: 100px 0;
+  z-index: 10;
+  width: 300px;
+}
+
+.img-container {
+  position: relative;
+  width: 110px;
+}
+
+.img-container::after {
+  content: '';
+  background-color: #679253;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -100%);
+}
+
+.img-container img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 110px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: rotate 3s linear infinite;
+
+  animation-play-state: paused;
+}
+
+.music-container.play .img-container img {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.action-btn {
+  position: relative;
+  background-color: rgba(65, 141, 84, 0);;
+  border: 0;
+  color: #dfdbdf;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.action-btn.action-btn-big {
+  position: relative;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.music-info {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(55% - 40px);
+  padding: 10px 10px 10px 150px;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #1d6621;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
 }

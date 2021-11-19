@@ -10,64 +10,99 @@
   </head>
 
   <body>
-    <div id="page-title"> 
-        <h1> FIND YOUR INSPO</h1>
-        <h2> - /inspō/ : something or someone that serves as inspiration or motivation -</h2>
-    </div>
-    
-    <div id="inspo-header">
+        <div id="page-title"> 
+            <h1> FIND YOUR INSPO</h1>
+            <h2> - /inspō/ : something or someone that serves as inspiration or motivation -</h2>
+        </div>
         
-    </div>
-   
-
-    <div id="inspo-collection"></div>
-    <div class="container">
-        <form class="add-inspo-form">
-          <h3>Add Your Inspo:</h3>
-  
-          <input
-            type="text"
-            name="name"
-            value=""
-            placeholder="Enter Your Quote Author..."
-            class="input-text"
-          />
-          <br />
-          <input
-            type="text"
-            name="quote"
-            value=""
-            placeholder="Enter Your Quote.."
-            class="input-text"
-          />
-          <br />
-          <input
-            type="text"
-            name="image"
-            value=""
-            placeholder="Enter Your Author's Image URL..."
-            class="input-text"
-          />
-          <br />
-          <input
-            type="submit"
-            name="submit"
-            value="Save"
-            class="submit"
-          />
-        </form>
-    </div>
-    <p style="text-align:center">
-        <button id="get-inspo-btn">
-            <img
-            src="https://media4.giphy.com/media/H55kzt7nzo2RJ4uqAU/giphy.gif?cid=790b761197fa731cdeb49a983b7918ef67093209bc2ab8e9&rid=giphy.gif&ct=s"
-            alt="enso-bttn"
-            />
-        </button>
-    </p>
-
+        <div id="inspo-header"></div>
     
-    <script type="text/javascript" src="src/index.js"></script>
+        <div id="inspo-collection"></div>
+
+        <div class="container">
+            <span>
+                <form class="add-inspo-form">
+                    <h3>Add Your Inspo:</h3>
+            
+                    <input
+                        type="text"
+                        name="name"
+                        value=""
+                        placeholder="Enter Your Quote Author..."
+                        class="input-text"
+                    />
+                    <br />
+                    <input
+                        type="text"
+                        name="quote"
+                        value=""
+                        placeholder="Enter Your Quote.."
+                        class="input-text"
+                    />
+                    <br />
+                    <input
+                        type="text"
+                        name="image"
+                        value=""
+                        placeholder="Enter Your Author's Image URL..."
+                        class="input-text"
+                    />
+                    <br />
+                    <input
+                        type="submit"
+                        name="submit"
+                        value="Save"
+                        class="submit"
+                    />
+                </form>
+            </span>
+            <span>
+                <select name="authors-list" id="authors-menu">
+                    <option>ALL AUTHORS</option>
+                </select>
+            </span>
+            <span>
+                <div class="music-container" id="music-container">
+                <div class="music-info">
+                    <h4 id="title"></h4>
+                    <div class="progress-container" id="progress-container">
+                    <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+        
+                <audio src="music/Perfect Circle.mp3" id="audio"></audio>
+        
+                <div class="img-container">
+                    <img src="images/Perfect Circl.jpeg" alt="music-cover" id="cover" />
+                </div>
+                <div class="navigation">
+                    <button id="prev" class="action-btn">
+                    <i class="fas fa-backward"></i>
+                    </button>
+                    <button id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                    </button>
+                    <button id="next" class="action-btn">
+                    <i class="fas fa-forward"></i>
+                    </button>
+                </div>
+                </div>
+            </span>
+        </div>
+        
+
+        <!-- Entry Button / Get inspo button -->
+        <p style="text-align:center">
+            <button id="get-inspo-btn">
+                <img
+                src="https://media4.giphy.com/media/H55kzt7nzo2RJ4uqAU/giphy.gif?cid=790b761197fa731cdeb49a983b7918ef67093209bc2ab8e9&rid=giphy.gif&ct=s"
+                alt="enso-bttn"
+                />
+            </button>
+        </p>
+
+        
+        <script type="text/javascript" src="src/index.js"></script>
   </body>
 
 </html>
