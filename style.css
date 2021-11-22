@@ -57,7 +57,7 @@ h4 {
   display: none;
   background: #679253;
   opacity: .8;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 20px 20px 0 rgba(61, 61, 61, 0.6);
 }
 
@@ -124,7 +124,7 @@ h4 {
 
 .card {
   text-align: center;
-  background-color: rgba(245, 245, 245, 0.856);
+  background-color: rgba(245, 245, 245, 0.897);
   padding: 1rem;
   width: 20rem;
   height: 30rem;
@@ -137,7 +137,7 @@ h4 {
 }
 
 .card:hover {
-  background-color: rgba(255, 255, 255, 0.808);
+  background-color: rgb(255, 255, 255);
 }
 
 .inspo-avatar {
@@ -206,7 +206,7 @@ h4 {
   font-size: 18px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 350px;
   margin-right: 200;
   box-shadow: 0 20px 20px 0 rgba(61, 61, 61, 0.6);
@@ -238,9 +238,10 @@ h4 {
   position: relative;
   left: 400px;
   bottom: 300px;
+  height: 40px;
   background-color: #679253;
   font-family: 'Lato', sans-serif;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 20px 20px 0 rgba(61, 61, 61, 0.6);
   display: flex;
   padding: 20px 30px;
@@ -264,7 +265,7 @@ h4 {
   left: 50%;
   width: 20px;
   height: 20px;
-  transform: translate(-50%, -100%);
+  transform: translate(-10%, -20%);
 }
 
 .img-container img {
@@ -309,7 +310,7 @@ h4 {
   color: #dfdbdf;
   font-size: 20px;
   cursor: pointer;
-  padding: 10px;
+  padding: 3px;
   margin: 0 20px;
 }
 
