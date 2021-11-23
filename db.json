@@ -12,7 +12,7 @@
       "author": "Bruce Lee",
       "id": 2,
       "image": "https://www.hollywoodreporter.com/wp-content/uploads/2013/02/bruce_lee_a_p.jpg?w=1024",
-      "likes": 37
+      "likes": 38
     },
     {
       "quote": "Happiness is a choice and a skill and you can dedicate yourself to learning that skill and making that choice.",
@@ -61,14 +61,14 @@
       "author": "Dr. Seuss",
       "id": 9,
       "image": "https://images1.penguinrandomhouse.com/author/2000585",
-      "likes": 3
+      "likes": 12
     },
     {
       "quote": "It doesn't matter where you are coming from. All that matters is where you are going. ",
       "author": "Brian Tracy",
       "id": 10,
       "image": "https://s3.amazonaws.com/media.briantracy.com/about/brian-about.jpg",
-      "likes": 0
+      "likes": 3
     },
     {
       "quote": "Growth comes at the point of resistance.",
@@ -124,7 +124,25 @@
       "author": "Sathya Sai Baba",
       "id": 18,
       "image": "https://starsunfolded.com/wp-content/uploads/2018/01/Sathya-Sai-Baba.....jpg",
-      "likes": 0
+      "likes": 3
+    },
+    {
+      "author": "Nancy Luu",
+      "quote": "Be Happy",
+      "image": "https://cdni.llbean.net/is/image/wim/250265_1145_41?hei=764&wid=665&resMode=sharp2&defaultImage=llbprod/A0211793_2",
+      "id": 19
+    },
+    {
+      "author": "Nancy Luu",
+      "quote": "Be Happy",
+      "image": "https://cdni.llbean.net/is/image/wim/250265_1145_41?hei=764&wid=665&resMode=sharp2&defaultImage=llbprod/A0211793_2",
+      "id": 20
+    },
+    {
+      "author": "Quade",
+      "quote": "Im the best",
+      "image": "https://cdni.llbean.net/is/image/wim/250265_1145_41?hei=764&wid=665&resMode=sharp2&defaultImage=llbprod/A0211793_2",
+      "id": 21
     }
   ]
 }
